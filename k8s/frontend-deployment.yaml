@@ -1,0 +1,25 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: frontend-deployment
+  namespace: react-django
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: frontend
+  template:
+    metadata:
+      name: frontend-pod
+      labels: 
+        app: frontend
+    spec:
+      containers:
+      - name: react-frontend
+        image: shazil91ali/react_django_demo_app-frontend:latest
+        ports:
+        - containerPort: 80
+      
+          
+
+

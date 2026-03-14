@@ -1,0 +1,22 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: backend-deployment
+  namespace: react-django
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: backend
+  template:
+    metadata:
+      name: backend-pod
+      labels: 
+        app: backend
+    spec:
+      containers:
+      - name: django-backend
+        image: shazil91ali/react_django_demo_app-backend:latest
+        ports:
+        - containerPort: 8000
+      
