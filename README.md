@@ -155,12 +155,6 @@ react_django_demo_app/
 3. Deploy services on Kubernetes
 4. Expose services via K8s networking
 
----
-
-## 📸 Demo
-
-👉 Live URL: *[Add if deployed]*
-👉 Screenshots: *[Add screenshots]*
 
 ---
 
@@ -190,8 +184,7 @@ This project highlights my ability to:
 
 **Shazil Ali**
 
-* GitHub: https://github.com/YOUR_USERNAME
-* LinkedIn: https://linkedin.com/in/YOUR_PROFILE
+* GitHub: https://github.com/Shazil91
 
 ---
 
